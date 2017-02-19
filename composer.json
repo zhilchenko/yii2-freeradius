@@ -1,0 +1,21 @@
+{
+    "name": "zhilchenko/yii2-freeradius",
+    "description": "Models and migration for FreeRADIUS SQL",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","radius","freeradius"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhilchenko",
+            "email": "zhilchenko@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "zhilchenko\\freeradius\\": ""
+        }
+    }
+}
