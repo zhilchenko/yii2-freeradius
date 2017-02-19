@@ -22,10 +22,8 @@ or add
 to the require section of your `composer.json` file.
 
 
-Usage
------
+Apply migration
 
-Once the extension is installed, simply use it in your code by  :
-
-```php
-<?= \zhilchenko\freeradius\AutoloadExample::widget(); ?>```
+```
+php yii migrate/up --migrationPath=@vendor/zhilchenko/yii2-freeradius/src/migrations
+```
